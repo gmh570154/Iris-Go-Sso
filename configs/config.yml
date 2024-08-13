@@ -1,0 +1,19 @@
+Sso:
+  login_url: http://192.168.110.128:8088/web/login
+  logout_url: http://192.168.110.128:8088/web/logout
+  host_url: http://192.168.110.128:8088
+  grant_type: token
+  client_id: test_client_3
+  secret_key: 
+
+Console:
+  home_url: http://192.168.110.129:8099/
+
+Log_level: 0
+
+Video:
+  - name: video.m3u8
+    url: http://192.168.110.128/out/play_list.m3u8
+
+  - name: video2.m3u8
+    url: http://192.168.110.128/out/play_list2.m3u8
